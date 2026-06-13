@@ -42,6 +42,15 @@
       <audio class="hidden" src=""></audio>
     </section>
   </main>
+  <script>
+    const randomNumber = Math.random();
+    const shouldApplyClass = randomNumber < 0.5;
+    let body = document.querySelector('body');
+
+    if (shouldApplyClass) {
+      body.classList.add('blue');
+    }
+  </script>
 </body>
 
 </html>

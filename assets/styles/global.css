@@ -11,7 +11,7 @@ body {
 }
 
 body.blue {
-  background-color: lightblue;
+  background-color: pink;
 }
 
 body.blue>main {
